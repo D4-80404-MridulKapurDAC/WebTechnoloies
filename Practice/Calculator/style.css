@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    text-align: center;
+    background-color: black;;
+}
+
+tr{
+    width:100%;
+    margin:auto;
+
+}
+
+.heading{
+    color:white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.input{
+    margin:auto;
+    text-align: center;
+}
+
+#first{
+    all:none;
+    height:2rem;
+    width:12rem;
+    font-size:22px;
+    text-align: center;
+}
+
+#second{
+    all:none;
+    height:2rem;
+    width:12rem;
+    font-size:22px;
+    text-align: center;
+}
+
+.input{
+    border-radius: 10rem;
+    background-color: rgb(255, 255, 255);
+    border-width: 0px;
+}
+
+.btns{
+    all:unset;
+    margin: 1rem 0 1rem 0;
+    height:2rem;
+    width:3rem;
+    text-align: center;
+    background-color: rgb(208, 121, 77);
+    color:aliceblue
+}
+
+.btns:hover{
+    cursor: pointer;
+}
+
+#result{
+    all:none;
+    height:2rem;
+    width:12rem;
+    font-size:22px;
+    text-align: center;
+    background-color: white;
+    color:black;
+}

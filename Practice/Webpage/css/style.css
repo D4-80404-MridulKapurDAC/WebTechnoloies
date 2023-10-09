@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width:100vw;
+    height: 100vh;
+}
+
+.icon{
+    width:10%;
+}
+
+.login{
+    width:10%;
+}
+
+.title{
+    /* width:80%; */
+    height:10%;
+}
+
+.ads{
+    width:10%;
+}
+
+.foot{
+    width:80%;
+}
+
+.last{
+    height:10%;
+}
+
+.logoTable{
+    width:100%;
+    height: 100%;
+}
+
+.adsTable{
+    width: 100%;
+    height: 100%;
+}
+
+.data{
+    width:100%;
+    height:100%;
+}
+
+.links{
+    height:10%;
+}
+
+table,tr,td{
+    border:1px solid black;
+}
+
+/* tr{
+    height:30%;
+} */

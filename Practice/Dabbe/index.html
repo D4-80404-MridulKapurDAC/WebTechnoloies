@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <table >
+        <tr>
+            <td colspan="3" id="att">attempts = 3</td>
+        </tr> 
+        <tr>
+            <td><button onClick="clk(0)" id="0">a</button></td>
+            <td><button onClick="clk(1)" id="1">a</button></td>
+            <td><button onClick="clk(2)" id="2">a</button></td>
+        </tr>
+        <tr>
+            <td><button onClick="clk(3)" id="3">a</button></td>
+            <td><button onClick="clk(4)" id="4">a</button></td>
+            <td><button onClick="clk(5)" id="5">a</button></td>
+        </tr>
+        <tr>
+            <td><button onClick="clk(6)" id="6">a</button></td>
+            <td><button onClick="clk(7)" id="7">a</button></td>
+            <td><button onClick="clk(8)" id="8">a</button></td>
+        </tr>
+    </table>
+    <div id="win">
+        <div>congratulation!</div>
+        <button id="reset" onClick="reset()">reset</button>
+    </div>
+    <div id="lose">
+        <div>Better luck next time.</div>
+        <button id="reset" onClick="reset()">reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
