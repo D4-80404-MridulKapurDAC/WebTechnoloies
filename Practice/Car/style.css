@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+}
+
+body{
+    position:relative;
+}
+
+.car{
+    display: flex;
+    position: absolute;
+    width:10%;
+    right:0;
+}
+
+img{
+    width:100%;
+}
+
+.road{
+    background-color: gray;
+    position: absolute;
+    width:600px;
+    height: 100px;
+    top:30px;
+    right:0px;
+}

@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table,tr,td{
+    border: 1px solid black;
+}
+
+/* .super{
+    width:600px;
+    height:600px;
+} */
+
+.sub{
+    width:200px;
+    height:200px;
+    margin:10px;
+}
