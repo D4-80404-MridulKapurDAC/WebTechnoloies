@@ -1,5 +1,5 @@
 var dist = 0;
-var dist2 = 0
+var dist2 = 50;
 function moveH(){
     // debugger;
     inter = setInterval(()=>mvHoriz(),0.1);
